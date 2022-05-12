@@ -1,26 +1,16 @@
-# LAB - Class xx
+# LAB - Class 18
 
-## Project: Project Name Here
+## Project: Cryptography
 
-## Author: Student/Group Name
-
-## Links and Resources
-
-- back-end server url (when applicable)
-- front-end application (when applicable)
+## Author: James Brooks
 
 ## Setup
 
-- .env requirements (where applicable) i.e.
-  - PORT - Port Number
-  - DATABASE_URL - URL to the running Postgres instance/db
-
-- How to initialize/run your application (where applicable)
-  - e.g. python main.py
-- How to use your library (where applicable)
+- To initialize the program, you use;
+  - pip install -r requirements.txt
+  - python caesar_cipher/cipher.py
 
 ## Tests
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+- You run tests with Pytest
+- There are 9 tests in total that test the input and output of the three functions to check if it can encrypt, decrypt and break the Substitution Cipher it uses.
